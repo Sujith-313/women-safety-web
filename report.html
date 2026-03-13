@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Report Harassment - SafeHer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+  <div class="logo">SafeHer</div>
+  <div class="menu">
+    <a href="index.html">Home</a>
+    <a href="report.html">Report</a>
+    <a href="awareness.html">Awareness</a>
+    <a href="help.html">Help</a>
+  </div>
+</div>
+
+<div class="report-card">
+  <h2>📝 Report an Incident</h2>
+  <p class="subtext">Your voice matters. This is a safe space.</p>
+
+  <form onsubmit="submitForm(); return false;">
+
+    <label>Your Name (optional)</label>
+    <input type="text" placeholder="Enter your name">
+
+    <label>Incident Location</label>
+    <input type="text" placeholder="Where did it happen?">
+
+    <label>Date & Time</label>
+    <input type="datetime-local">
+
+    <label>Describe the Incident</label>
+    <textarea placeholder="Briefly describe what happened"></textarea>
+
+    <label>Upload Evidence (optional)</label>
+    <input type="file">
+
+    <button type="submit">Submit Report</button>
+  </form>
+
+  <a href="index.html" class="back-link">⬅ Back to Home</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

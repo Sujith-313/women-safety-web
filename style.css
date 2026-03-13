@@ -1,0 +1,126 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right,#7b2ff7,#f107a3);
+    color: white;
+    text-align:center;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+.btn{
+    display: block;
+    margin: 15px auto;
+    padding: 12px;
+    width: 250px;
+    background: white;
+    color: #7b2ff7;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight:bold;
+}
+.card {
+  background: white;
+  color: #7b2ff7;
+  padding: 15px;
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.report-card {
+  background: white;
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  color: #333;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.report-card h2 {
+  text-align: center;
+  color: #7b2ff7;
+}
+
+.subtext {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #7b2ff7;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5a1fd1;
+}
+
+.back-link {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #7b2ff7;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #7b2ff7;
+}
+
+.menu a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: #7b2ff7;
+}
+
+.hero-img {
+  width: 350px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
